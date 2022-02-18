@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es_MX.UFT-8">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1"/>
+	<title><font color="black">Venta de alimetos</font></title>
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<head>
+	<div id="dvHead">
+	<h1 id="h1Head">Venta de alimentos</h1>
+	</div>
+</head>
+<body style="background-color:#00fffb;">	
+<a href="cerrar.php"><button id="btnSalir">Salir</button></a>
+<section class="contenido">
+	<div id="dvSubtits">
+		<br><h1>Manuel Garcia.</h1><br><p>Venta de alimentos</p><br>
+	</div><br>
+	<center>
+		<button>Registrar Usuarios</button></a>
+		<button>Agregar producto</button></a>
+		<button>Modificar producto</button></a>
+		<button>Eliminar producto</button></a>
+	</center>
+	<br><br>
+	<div id="dvSubt2">
+		<h3>Lista de productos guardados.</h3>
+	</div>
+	<br><br>
+	<table>
+		<tr>
+			<th>nombre</th>
+			<th>idproducto</th>
+			<th>precio</th>
+			<th>tipo de producto</th>
+			
+		</tr>
+		
+			
+	</table>
+</section>
+<center>
+	<p>(C) Abarrote el wero.</p>
+</center>
+</body>
+</html>
