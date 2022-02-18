@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es_MX.UFT-8">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1"/>
+	<title>Registrar Usuarios - Venta de productos</title>
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/estilo_registro.css">
+</head>
+<head>
+	<div id="dvHead">
+	<h1 id="h1Head">Venta de productos</h1>
+	</div>
+</head>
+<body style="background-color:#000000;">	
+<section class="contenido">
+	<div id="dvSubtits">
+		<br><h1>Registro de usuarios.</h1><br><p>A continuaci&oacute;n, registra a un nuevo usuario para que pueda acceder a la plataforma.</p><br>
+	</div><br>
+	<form action="registrar.php" method="POST">
+		<div id="dvSubt2">
+			<table>
+				<tr>
+					<td><p>Nombre:</p></td><td><input type="text" name="frUsu_nombre" required></td>
+				</tr>
+				<tr>
+					<td><p>Cargo:</p></td><td><input type="text" name="frUsu_cargo" required></td>
+				</tr>
+				<tr>
+					<td><p>usuario:</p></td><td><input type="text" name="frUsu_nick" required></td>
+				</tr>
+				<tr>
+					<td><p>Correo:</p></td><td><input type="email" name="frUsu_correo" required></td>
+				</tr>
+				<tr>
+					<td><p>Contrase&ntilde;a:</p></td><td><input type="password" name="frUsu_contra" required></td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<center>
+			<input id="btnSubmit" type="submit" name="REGISTRAR" value="Registrar">
+		</center>
+	</form>
+	<br>
+	<center>
+		<a href="home.php"><button>Volver</button></a>
+	</center>
+</section>
+<center>
+	<p>(C) Abarrotes el wero</p>
+</center>
+</body>
+</html>
